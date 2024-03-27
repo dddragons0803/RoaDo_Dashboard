@@ -1,0 +1,70 @@
+.table-container{
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    border-radius: 20px;
+  }
+ 
+  
+  th, td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #c2c1c1;
+    background-color: #ffffff;
+    
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .tableimg {
+    vertical-align: middle;
+    margin-right: 8px;
+    height: 32px;
+  }
+  
+  .status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .active {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .pending {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
+  .cancelled {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+      width: 100%;
+    }
+  
+    th, td {
+      padding: 6px;
+    }
+  
+    td:nth-child(4), /* User ID */
+    td:nth-child(5), /* Joined */
+    th:nth-child(4),
+    th:nth-child(5) {
+      display: none;
+    }
+  }

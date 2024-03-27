@@ -1,0 +1,31 @@
+/* .maincontentpage{
+    width: 85vw;
+} */
+.responsive-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 76vw;
+}
+
+.graphimg{
+    margin-top: 20px;
+    width: 89%;
+    height: auto;
+
+}
+.image-graph{
+    width: 100%;
+    border-radius: 30px;
+}
+
+@media (max-width: 768px) {
+    .responsive-card{
+        flex-direction: column;
+        width: 100%;
+    }
+    .graphimg{
+        width: 100%;
+    }
+
+}

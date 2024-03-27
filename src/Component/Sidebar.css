@@ -1,0 +1,65 @@
+.sidebar {
+    background-color: #fafafa;
+    color: rgb(64, 60, 60);
+    padding: 20px;
+    transition: width 0.5s; /* Add transition for smoother animation */
+    height: 80vh;
+    width: 15vw;
+  }
+  
+.clonifylogo{
+    height: 40px;
+    vertical-align: middle;
+}
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+.dropimg {
+    height: 20px;
+    width: auto;
+    
+    vertical-align: middle;
+}
+.firsticon{
+    height: 31px;
+    width: auto;
+    vertical-align: middle;
+}
+
+  
+  .navigation {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navigation li {
+    padding: 10px 0;
+    cursor: pointer;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-weight: 700;
+  }
+  
+  .sub-navigation {
+    display: none;
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .navigation li:hover .sub-navigation {
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+   
+    .sidebar {
+      width: 0;
+      overflow: hidden;
+      padding: 0;
+    }
+  }
+  

@@ -1,0 +1,81 @@
+.navbar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f1f1;
+    color: rgb(32, 27, 27);
+    width: 80%;
+}
+.hidden-navbar{
+    display: none;
+}
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding-left: 30px; /* Space for the icon */
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 60vw;
+    border: 1px solid rgb(69, 67, 67);
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    color: #888;
+}
+
+.icons{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fauser{
+    border: 1px solid black;
+    height: 22px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        width: 85vw;
+    }
+  .hidden-navbar{
+    width: 80vw ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+  }
+  .hidden-logo{
+    display: flex;
+    align-items: center;
+   
+  }
+  .hidden-clonifylogo{
+    height: 32px;
+    margin-right: 2px;
+  }
+  .logo-text {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+    input[type="text"]{
+        width: 75vw;
+    }
+    .icons{
+        display: none;
+    }
+}

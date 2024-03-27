@@ -1,0 +1,41 @@
+.AddContainer{
+    box-sizing: border-box;
+margin-top: 20px;
+background-color: black;
+width: 85%;
+display: flex;
+justify-content: space-between;
+border-radius: 30px;
+padding: 20px 40px ;
+color: white;
+align-items: center;
+}
+
+
+.AddUpgrade{
+   width: auto;
+   padding: 1px 20px;
+   border-radius: 30px;
+   background-color: white;
+   color: black;
+}
+
+@media (max-width: 768px) {
+   .AddContainer{
+    flex-direction: column;
+    width: 100%;
+   }
+   .AddContainer h1{
+    font-size: 30px;
+    font-weight: 600;
+   }
+   .AddContainer h4{
+    font-size: 16px;
+    font-weight: 400;
+   }
+   .AddContainer h3{
+    font-size: 16px;
+    font-weight: 400;
+   }
+  }
+  
